@@ -1,1 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Real-Time Secure Chat Application</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          animation: {
+            fadeIn: 'fadeIn 1s ease-in-out',
+            pulseSlow: 'pulse 3s infinite'
+          },
+          keyframes: {
+            fadeIn: {
+              '0%': { opacity: 0 },
+              '100%': { opacity: 1 }
+            }
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans leading-relaxed">
+  <div class="max-w-4xl mx-auto p-6">
+    
+    <header class="text-center mb-10">
+      <h1 class="text-4xl font-bold text-purple-700 animate-fadeIn">🔐 Real-Time Secure Chat App</h1>
+      <p class="text-lg mt-2 text-gray-600">Built with Python, Sockets, and Encryption Algorithms</p>
+    </header>
+
+    <section class="mb-10">
+      <img src="https://raw.githubusercontent.com/AhmedIssa11/Real-Time-Secure-Chat-Application/main/project_overview.png" alt="System Overview" class="rounded-lg shadow-lg mx-auto w-full max-w-xl animate-fadeIn">
+    </section>
+
+    <section class="bg-white p-6 rounded-xl shadow-md animate-fadeIn">
+      <h2 class="text-2xl font-semibold mb-4 text-purple-600">🚀 Features</h2>
+      <ul class="list-disc list-inside space-y-2 text-gray-700">
+        <li>Multi-user group chat</li>
+        <li>DES, RSA, and ElGamal encryption options</li>
+        <li>Trusted Third Party (TTP) verification</li>
+        <li>Real-time communication via sockets</li>
+        <li>Python & Tkinter based UI</li>
+      </ul>
+    </section>
+
+    <section class="mt-8 bg-white p-6 rounded-xl shadow-md animate-fadeIn">
+      <h2 class="text-2xl font-semibold mb-4 text-purple-600">🛠️ Tech Stack</h2>
+      <div class="grid grid-cols-2 gap-4 text-gray-700">
+        <div><strong>Backend:</strong> Python</div>
+        <div><strong>Frontend:</strong> Tkinter</div>
+        <div><strong>Encryption:</strong> DES, RSA, ElGamal</div>
+        <div><strong>Network:</strong> Python Socket</div>
+      </div>
+    </section>
+
+    <section class="mt-8 bg-white p-6 rounded-xl shadow-md animate-fadeIn">
+      <h2 class="text-2xl font-semibold mb-4 text-purple-600">📦 Installation</h2>
+      <pre class="bg-gray-100 p-4 rounded text-sm overflow-auto"><code>git clone https://github.com/AhmedIssa11/Real-Time-Secure-Chat-Application
+cd Real-Time-Secure-Chat-Application</code></pre>
+    </section>
+
+    <section class="mt-8 bg-white p-6 rounded-xl shadow-md animate-fadeIn">
+      <h2 class="text-2xl font-semibold mb-4 text-purple-600">▶️ How to Use</h2>
+      <pre class="bg-gray-100 p-4 rounded text-sm overflow-auto"><code># Start the server
+python server.py
+
+# Open another terminal and run the client
+python client.py</code></pre>
+    </section>
+
+    <section class="mt-8 text-center animate-fadeIn">
+      <h2 class="text-2xl font-semibold mb-4 text-purple-600">🖼️ GUI Preview</h2>
+      <img src="https://raw.githubusercontent.com/AhmedIssa11/Real-Time-Secure-Chat-Application/main/GUI.png" alt="GUI Screenshot" class="rounded-lg shadow-lg mx-auto w-full max-w-xl">
+    </section>
+
+    <footer class="mt-12 text-center text-sm text-gray-500">
+      © 2025 Real-Time Secure Chat App. Open source under MIT License.
+    </footer>
+
+  </div>
+</body>
+</html>
 
